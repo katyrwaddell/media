@@ -1,0 +1,66 @@
+body {
+  background-color: #dadada;
+  font-size: 32px;
+  font-family: 'system-ui', sans-serif;
+  text-transform: capitalize;
+}
+
+@media screen (min-width: 575px;) {
+  body {
+  display: inline;
+  }
+}
+
+.preview.baku {
+  background-image: url(/images/baku.jpg);
+
+}
+.preview.london {
+  background-image: url(/images/london.png);
+}
+.preview.madrid {
+  background-image: url(/images/madrid.jpg);
+}
+.preview.rome {
+  background-image: url(/images/rome.jpg);
+
+}
+
+.container {
+  text-align: center;
+  font-size: 100%;
+  font-weight: lighter;
+}
+
+.container h1 {
+  margin: 20px;
+  border: 10px;
+}
+
+.preview {
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+@media screen (min-width: 575px){
+.preview {
+  width: 46%;
+  border: 1%;
+  }
+@@media screen (min-width: 991px) {
+  .preview {
+    width: 22%;
+  }
+}
+
+}
+.preview h1 {
+  text-align:left;
+  font-size: 80%;
+  font-weight: normal;
+  padding-top:  20px;
+  padding-bottom: 10px;
+  text-transform: none;
+}
