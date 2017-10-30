@@ -3,13 +3,14 @@ body {
   font-size: 32px;
   font-family: 'system-ui', sans-serif;
   text-transform: capitalize;
+
 }
 
-@media screen (min-width: 575px;) {
+/* @media screen and (min-width: 575px;) {
   body {
-  display: inline;
+  display: inline block;
   }
-}
+} */
 
 .preview.baku {
   background-image: url(/images/baku.jpg);
@@ -32,9 +33,9 @@ body {
   font-weight: lighter;
 }
 
-.container h1 {
-  margin: 20px;
-  border: 10px;
+ .container h1 {
+  margin: 4%;
+  border: 4%;
 }
 
 .preview {
@@ -44,18 +45,25 @@ body {
   width: 100%;
   height: 300px;
 }
-@media screen (min-width: 575px){
-.preview {
-  width: 46%;
-  border: 1%;
-  }
-@@media screen (min-width: 991px) {
-  .preview {
-    width: 22%;
-  }
-}
+@media screen and (min-width: 575px){
 
-}
+.preview {
+  width: 45%;
+  margin: 1%;
+  display: inline-block;
+  }
+  }
+
+@media screen and (min-width: 991px){
+  .preview {
+    width: 21%;
+    margin: 1%;
+    border: 0px;
+    display: inline-block;
+    }
+    }
+
+
 .preview h1 {
   text-align:left;
   font-size: 80%;
